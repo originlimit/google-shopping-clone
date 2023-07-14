@@ -2,8 +2,13 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <header>
-      This is the header
+    <header className='flex flex-col'>
+      <div className="flex justify-between">
+        <div className="flex">Logo</div>
+        <div className="flex">Search</div>
+        <div className="flex">Acc</div>
+      </div>
+      <div className='flex justify-center'>Filters</div>
     </header>
   )
 }
