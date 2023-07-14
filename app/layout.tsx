@@ -1,3 +1,4 @@
+import Header from '@/components/Header'
 import './globals.css'
 import { Inter } from 'next/font/google'
 
@@ -11,8 +12,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div>hello world again</div>
-        {children}
+        <main className='flex flex-col bg-red-300'>
+          <Header />
+          {children}
+        </main>
       </body>
     </html>
   )

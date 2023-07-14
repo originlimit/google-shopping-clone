@@ -1,6 +1,10 @@
-export default function Home() {
+const Home = () => {
   return (
-    <div>hello world</div>
-   )
+    <div className="flex">
+      <div>This is the page</div>
+    </div>
+  )
 }
+
+export default Home
 
